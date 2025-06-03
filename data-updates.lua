@@ -1,8 +1,6 @@
 require "util"
 require "const"
 
-local utils = require("__any-planet-start__.utils")
-
 -- vanilla + Nauvis compats
 planet_mods = {
     "space-age",
@@ -122,6 +120,8 @@ function moveDysonSphere(system_name)
 end
 
 function fixTech()
+    local utils = require("__any-planet-start__.utils")
+
     start_system = getStartSystem()
     techs = {
         star = TECH_CORE,
@@ -293,8 +293,8 @@ end
 --     moveDysonSphere(start_system)
 -- end
 
-fixTech()
 
 if mods["any-planet-start"] then
+    fixTech()
     fixSatellites()
 end
