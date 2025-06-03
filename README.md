@@ -1,8 +1,6 @@
 # Intersteller Travel
 
-[![Release](https://github.com/AngellusMortis/factorio-interstellar-travel/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/AngellusMortis/factorio-interstellar-travel/actions/workflows/release.yml)
-
-[Mod Portal](https://mods.factorio.com/mod/interstellar-travel)
+[![Release](https://github.com/AngellusMortis/factorio-interstellar-travel/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/AngellusMortis/factorio-interstellar-travel/actions/workflows/release.yml) | [Mod Portal](https://mods.factorio.com/mod/interstellar-travel)
 
 Fork of [TheTwonky](https://mods.factorio.com/user/TheTwonky)'s [Solar Systems](https://mods.factorio.com/mod/SolarSystems) mod.
 
