@@ -16,7 +16,7 @@ _Note:_ All screenshots taked with the [StarMap Background](https://mods.factori
 - Moves all Aqulio+ content to another star system (Jarbid) to force Interstellar logistic between systems
 - Travel between Core Systems (Nauvis, Miara, and Twelpa) is restricted behind Space Science
 - Travel to Fringe Systems (Jarbid) is restricted behind the 3 main planetary sciences (Vulcanus, Fulgora, Gleba)
-- Combability with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), [Redrawn Space Connections](https://mods.factorio.com/mod/Redrawn-Space-Connections) and [rjdunlap](https://mods.factorio.com/user/rjdunlap)'s planet mods and [Enable all Planet Mods](https://mods.factorio.com/mod/kry-all-planet-mods).
+- Combability with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), [Redrawn Space Connections](https://mods.factorio.com/mod/Redrawn-Space-Connections), [rjdunlap](https://mods.factorio.com/user/rjdunlap)'s planet mods and [Enable all Planet Mods](https://mods.factorio.com/mod/kry-all-planet-mods).
 
 ## Mod Compatibility
 
