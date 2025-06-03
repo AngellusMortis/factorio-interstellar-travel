@@ -30,6 +30,7 @@ deleteRoute("janus-maraxsis")
 
 routes = {}
 any_edge = false
+any_route = false
 
 if mods["tenebris-prime"] then
     routes[#routes + 1] = {
@@ -44,6 +45,7 @@ if mods["tenebris-prime"] then
         length = 20000,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
     }
+    any_route = true
 end
 
 if mods["Factorio-Tiberium"] then
@@ -63,6 +65,7 @@ elseif mods["planet-froodara"] then
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
     }
     any_edge = true
+    any_route = true
 elseif mods["cubium"] then
     routes[#routes + 1] = {
         type = "space-connection",
@@ -77,6 +80,7 @@ elseif mods["cubium"] then
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
     }
     any_edge = true
+    any_route = true
 elseif mods["planet-akularis"] then
     routes[#routes + 1] = {
         type = "space-connection",
@@ -91,6 +95,7 @@ elseif mods["planet-akularis"] then
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
     }
     any_edge = true
+    any_route = true
 end
 
 if mods["planet-vicrox"] then
@@ -107,6 +112,7 @@ if mods["planet-vicrox"] then
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
     }
     any_edge = true
+    any_route = true
 end
 
 if not any_edge then
@@ -122,6 +128,9 @@ if not any_edge then
         length = 40000,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
     }
+    any_route = true
 end
 
-data:extend(routes)
+if any_route then
+    data:extend(routes)
+end
