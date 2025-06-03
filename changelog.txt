@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025-06-03
+  Compatibility:
+    - Move Tenebris to Jarbis (requires cyrogenic science)
+  Bugfixes:
+    - Downgrade asteroid for Jarbid to big instead of huge
+    - Exclude frozeta from getting space-connections
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2025-06-03
   Bugfixes:
