@@ -33,7 +33,8 @@ PlanetsLib:update({
                 filename = "__interstellar-travel__/graphics/orbits/orbit_44.png",
                 size = 4096,
             },
-        }
+        },
+        redrawn_connections_exclude = true,
     }
 })
 
