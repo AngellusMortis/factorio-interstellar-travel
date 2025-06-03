@@ -219,7 +219,7 @@ function addJarbid(miara, twelpa)
             order = "h",
             length = 70000,
             redrawn_connections_keep = true,
-            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.aquilo_solar_system_edge)
+            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     }
 
@@ -235,7 +235,7 @@ function addJarbid(miara, twelpa)
             order = "h",
             length = 70000,
             redrawn_connections_keep = true,
-            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.aquilo_solar_system_edge)
+            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     end
 
@@ -251,7 +251,7 @@ function addJarbid(miara, twelpa)
             order = "h",
             length = 70000,
             redrawn_connections_keep = true,
-            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.aquilo_solar_system_edge)
+            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     end
     data:extend(routes)

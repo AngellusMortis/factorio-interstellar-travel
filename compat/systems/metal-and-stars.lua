@@ -197,7 +197,7 @@ else
             order = "h",
             length = 55000,
             redrawn_connections_keep = true,
-            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.aquilo_solar_system_edge)
+            asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     }
 

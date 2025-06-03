@@ -51,7 +51,7 @@ routes = {
         to = "aquilo",
         order = "h",
         length = 70000,
-        asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.aquilo_solar_system_edge)
+        asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
     }
 }
 if mods["planet-hexalith"] then
