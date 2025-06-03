@@ -62,7 +62,6 @@ The default/Nauvis system is mostly unchanged. Except many planets have been _re
 - [Cubium](https://mods.factorio.com/mod/cubium)
 - [Tiber](https://mods.factorio.com/mod/Factorio-Tiberium)
 - [Janus](https://mods.factorio.com/mod/janus)
-- [Tenebris](https://mods.factorio.com/mod/tenebris-prime)
 - [Char](https://mods.factorio.com/mod/erm_zerg)
 
 ![Twelpa System](https://i.imgur.com/NcSFBxI.png)
@@ -88,6 +87,7 @@ Jarbid is now the home of Aquilo, the Solar System Edge and the Shattered Planet
 - [Maraxsis](https://mods.factorio.com/mod/maraxsis)
 - [Paracelsin](https://mods.factorio.com/mod/Paracelsin)
 - [Secretas](https://mods.factorio.com/mod/secretas)
+- [Tenebris](https://mods.factorio.com/mod/tenebris-prime)
 - [Naufulglebunusilo](https://mods.factorio.com/mod/naufulglebunusilo) - hybird of all vanilla planets
 - Oralt black hole from [Void Processing](https://mods.factorio.com/mod/VoidProcessing)
 

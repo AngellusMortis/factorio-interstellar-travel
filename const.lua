@@ -21,7 +21,6 @@ PLANET_MODS_TWELPA = {
     "planet-froodara",
     "planet-nekohaven",
     "planet-vicrox",
-    "tenebris-prime",
 }
 PLANET_MODS_JARBID = {
     "maraxsis",
@@ -33,5 +32,6 @@ PLANET_MODS_JARBID = {
     "planet-mickora",
     "planet-tapatrion",
     "secretas",
+    "tenebris-prime",
     "VoidProcessing",
 }
