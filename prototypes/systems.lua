@@ -43,6 +43,7 @@ function addMiara()
             name = "sye-miara",
             localised_name = "Miara system edge",
             icon = "__space-age__/graphics/icons/solar-system-edge.png",
+            solar_power_in_space = 15,
             orbit = {
                 parent = {
                     type = "space-location",
@@ -114,6 +115,7 @@ function addTwelpa(miara)
             name = "sye-twelpa",
             localised_name = "Twelpa system edge",
             icon = "__space-age__/graphics/icons/solar-system-edge.png",
+            solar_power_in_space = 15,
             orbit = {
                 parent = {
                     type = "space-location",
@@ -191,6 +193,7 @@ function addJarbid(miara, twelpa)
             name = "sye-jarbid",
             localised_name = "Jarbid Solar system edge",
             icon = "__space-age__/graphics/icons/solar-system-edge.png",
+            solar_power_in_space = 5,
             orbit = {
                 parent = {
                     type = "space-location",
@@ -390,6 +393,7 @@ function addSystems()
             name = "sye-nauvis",
             localised_name = "Nauvis system edge",
             icon = "__space-age__/graphics/icons/solar-system-edge.png",
+            solar_power_in_space = 15,
             orbit = {
                 parent = {
                     type = "space-location",
