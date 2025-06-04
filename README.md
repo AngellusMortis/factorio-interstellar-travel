@@ -43,7 +43,7 @@ The default/Nauvis system is mostly unchanged. Except many planets have been _re
 ### Miara (T1-T4)
 
 - [Gerkizia](https://mods.factorio.com/mod/planet-gerkizia) - Nauvis-like planet with mostly ocean/island start. Has Vulcanus destroyers.
-- [Quadromire](https://mods.factorio.com/mod/planet-quadromire) - Naucis resources with Gleba world gen.
+- [Quadromire](https://mods.factorio.com/mod/planet-quadromire) - Nauvis resources with Gleba world gen.
 - [Tchekor](https://mods.factorio.com/mod/planet-tchekor) - Fulgora + Vulcanus hybird
 - [Zzhora](https://mods.factorio.com/mod/planet-zzhora) - Gleba + Vulcanus hybird
 - [Rubia](https://mods.factorio.com/mod/rubia)
@@ -80,7 +80,7 @@ Likewise, if you have Metal and Star installed, the Senestella Stargate will be 
 Jarbid is now the home of Aquilo, the Solar System Edge and the Shattered Planet. As well as the followed modded planets.
 
 - [Mickora](https://mods.factorio.com/mod/planet-mickora) - Nauvis-like planet with no sunlight.
-- [Hexalith](https://mods.factorio.com/mod/planet-hexalith) - Navuis-like planet with some Gleba world and lots of biters.
+- [Hexalith](https://mods.factorio.com/mod/planet-hexalith) - Nauvis-like planet with some Gleba world and lots of biters.
 - [Tapatrion](https://mods.factorio.com/mod/planet-tapatrion) - Aqulio + Gleba hybird
 - [Ithurice](https://mods.factorio.com/mod/planet-ithurice) - Aqulio + Fulgora hybird
 - [Arrakis](https://mods.factorio.com/mod/planet-arrakis)
