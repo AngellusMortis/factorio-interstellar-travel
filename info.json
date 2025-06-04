@@ -45,7 +45,9 @@
     "? tenebris-prime",
     "? terrapalus",
     "? VoidProcessing",
-    "! Tiered-Solar-System"
+    "! Tiered-Solar-System",
+    "! SolarSystems",
+    "! SolarSystems-Fork"
   ],
   "space_travel_required": true
 }
