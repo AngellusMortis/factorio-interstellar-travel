@@ -69,8 +69,8 @@ PlanetsLib:update({
         name = "lemures",
         orbit = {
             parent = {
-                type = "space-location",
-                name = "star-dea-dia",
+                type = "planet",
+                name = "planet-dea-dia",
             },
             distance = 5,
             orientation = 0.55,
@@ -89,8 +89,8 @@ PlanetsLib:update({
         name = "prosephina",
         orbit = {
             parent = {
-                type = "space-location",
-                name = "star-dea-dia",
+                type = "planet",
+                name = "planet-dea-dia",
             },
             distance = 6,
             orientation = -0.2,
