@@ -71,6 +71,7 @@ function addMiara()
         order = "h",
         length = 35000,
         redrawn_connections_keep = true,
+        redrawn_connections_rescale = false,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
     } })
 end
@@ -143,6 +144,8 @@ function addTwelpa(miara)
             to = "sye-twelpa",
             order = "h",
             length = 35000,
+            redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
         }
     }
@@ -159,6 +162,7 @@ function addTwelpa(miara)
             order = "h",
             length = 35000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
         }
     end
@@ -222,6 +226,7 @@ function addJarbid(miara, twelpa)
             order = "h",
             length = 70000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     }
@@ -238,6 +243,7 @@ function addJarbid(miara, twelpa)
             order = "h",
             length = 70000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     end
@@ -254,6 +260,7 @@ function addJarbid(miara, twelpa)
             order = "h",
             length = 70000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     end

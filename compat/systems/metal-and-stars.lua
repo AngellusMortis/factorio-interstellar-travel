@@ -182,8 +182,9 @@ else
             from = "sye-nauvis",
             to = "calidus-senestella-gate-calidus",
             order = "h",
-            length = 15000,
+            length = 20000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
         },
         {
@@ -197,6 +198,7 @@ else
             order = "h",
             length = 55000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
         }
     }
@@ -211,8 +213,9 @@ else
             from = "sye-miara",
             to = "calidus-senestella-gate-calidus",
             order = "h",
-            length = 15000,
+            length = 20000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
         }
     end
@@ -227,8 +230,9 @@ else
             from = "sye-twelpa",
             to = "calidus-senestella-gate-calidus",
             order = "h",
-            length = 15000,
+            length = 20000,
             redrawn_connections_keep = true,
+            redrawn_connections_rescale = false,
             asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
         }
     end

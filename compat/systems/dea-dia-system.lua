@@ -127,8 +127,9 @@ local routes = {
         from = "sye-nauvis",
         to = "dea-dia-system-edge",
         order = "h",
-        length = 15000,
+        length = 20000,
         redrawn_connections_keep = true,
+        redrawn_connections_rescale = false,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
     },
     {
@@ -142,6 +143,7 @@ local routes = {
         order = "h",
         length = 55000,
         redrawn_connections_keep = true,
+        redrawn_connections_rescale = false,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)
     }
 }
@@ -156,8 +158,9 @@ if miara then
         from = "sye-miara",
         to = "dea-dia-system-edge",
         order = "h",
-        length = 15000,
+        length = 20000,
         redrawn_connections_keep = true,
+        redrawn_connections_rescale = false,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
     }
 end
@@ -172,8 +175,9 @@ if twelpa then
         from = "sye-twelpa",
         to = "dea-dia-system-edge",
         order = "h",
-        length = 15000,
+        length = 20000,
         redrawn_connections_keep = true,
+        redrawn_connections_rescale = false,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus)
     }
 end
