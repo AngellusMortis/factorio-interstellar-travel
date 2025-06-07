@@ -47,7 +47,8 @@
     "? VoidProcessing",
     "! Tiered-Solar-System",
     "! SolarSystems",
-    "! SolarSystems-Fork"
+    "! SolarSystems-Fork",
+    "! Nexus"
   ],
   "space_travel_required": true
 }
