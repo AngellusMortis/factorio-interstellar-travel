@@ -58,12 +58,12 @@ else
     deleteRoute("jarbid-to-aquilo")
     routes[#routes + 1] = {
         type = "space-connection",
-        name = "mickora-to-aqulio",
-        localised_name = "Mickora to Aqulio",
+        name = "mickora-to-aquilo",
+        localised_name = "Mickora to Aquilo",
         subgroup = "planet-connections",
         icon = "__space-age__/graphics/icons/solar-system-edge.png",
         from = "mickora",
-        to = "aqulio",
+        to = "aquilo",
         order = "h",
         length = 30000,
         asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_aquilo)

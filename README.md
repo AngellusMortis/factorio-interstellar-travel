@@ -11,7 +11,7 @@ _Note:_ All screenshots taked with the [StarMap Background](https://mods.factori
 ## Features
 
 - Add up to 3 new star systems: Miara, Twelpa and Jarbid. Miara and Twelpa are only added if there are planets within the system.
-- Moves all Aqulio+ content to another star system (Jarbid) to force Interstellar logistic between systems
+- Moves all Aquilo+ content to another star system (Jarbid) to force Interstellar logistic between systems
 - Travel between Core Systems (Nauvis, Miara, and Twelpa) is restricted behind Space Science
 - Travel to Fringe Systems (Jarbid) is restricted behind the 3 main planetary sciences (Vulcanus, Fulgora, Gleba)
 - Combability with [Any Planet Start](https://mods.factorio.com/mod/any-planet-start), [Redrawn Space Connections](https://mods.factorio.com/mod/Redrawn-Space-Connections), [rjdunlap](https://mods.factorio.com/user/rjdunlap)'s planet mods and [Enable all Planet Mods](https://mods.factorio.com/mod/kry-all-planet-mods).
@@ -81,8 +81,8 @@ Jarbid is now the home of Aquilo, the Solar System Edge and the Shattered Planet
 
 - [Mickora](https://mods.factorio.com/mod/planet-mickora) - Nauvis-like planet with no sunlight.
 - [Hexalith](https://mods.factorio.com/mod/planet-hexalith) - Nauvis-like planet with some Gleba world and lots of biters.
-- [Tapatrion](https://mods.factorio.com/mod/planet-tapatrion) - Aqulio + Gleba hybird
-- [Ithurice](https://mods.factorio.com/mod/planet-ithurice) - Aqulio + Fulgora hybird
+- [Tapatrion](https://mods.factorio.com/mod/planet-tapatrion) - Aquilo + Gleba hybird
+- [Ithurice](https://mods.factorio.com/mod/planet-ithurice) - Aquilo + Fulgora hybird
 - [Arrakis](https://mods.factorio.com/mod/planet-arrakis)
 - [Maraxsis](https://mods.factorio.com/mod/maraxsis)
 - [Paracelsin](https://mods.factorio.com/mod/Paracelsin)
