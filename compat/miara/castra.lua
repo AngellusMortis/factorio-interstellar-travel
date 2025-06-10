@@ -73,4 +73,20 @@ if mods["planet-zzhora"] then
         asteroid_spawn_definitions = gleba_castra
     }
 end
+
+if mods["planet-quadromire"] then
+    routes[#routes + 1] = {
+        type = "space-connection",
+        name = "quadromire-to-castra",
+        localised_name = "Quadromire to Castra",
+        icon = "__space-age__/graphics/icons/solar-system-edge.png",
+        subgroup = "planet-connections",
+        from = "quadromire",
+        to = "castra",
+        order = "h",
+        length = 30000,
+        asteroid_spawn_definitions = gleba_castra
+    }
+end
+
 data:extend(routes)

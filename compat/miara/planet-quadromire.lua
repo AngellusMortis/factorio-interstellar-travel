@@ -56,18 +56,7 @@ elseif mods["corrundum"] then
     }
     any_edge = true
 elseif mods["castra"] then
-    routes[#routes + 1] = {
-        type = "space-connection",
-        name = "quadromire-to-castra",
-        localised_name = "Quadromire to Castra",
-        icon = "__space-age__/graphics/icons/solar-system-edge.png",
-        subgroup = "planet-connections",
-        from = "quadromire",
-        to = "castra",
-        order = "h",
-        length = 30000,
-        asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.gleba_castra)
-    }
+    -- defined in Castra compat file
     any_edge = true
 elseif mods["planet-tchekor"] then
     routes[#routes + 1] = {
@@ -112,4 +101,6 @@ else
     }
 end
 
-data:extend(routes)
+if #routes > 0 then
+    data:extend(routes)
+end
