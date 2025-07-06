@@ -34,5 +34,5 @@ PLANET_MODS_JARBID = {
     "secretas",
     "tenebris-prime",
     "VoidProcessing",
-	"Nexus",
+    "Nexus",
 }
