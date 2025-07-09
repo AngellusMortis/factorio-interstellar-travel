@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2025-07-09
+  Bugfixes:
+    - Nexus Compatibility Patch ([#1](https://github.com/AngellusMortis/factorio-interstellar-travel/issues/1))
+---------------------------------------------------------------------------------------------------
 Version: 1.0.8
 Date: 2025-06-10
   Bugfixes:
