@@ -3,59 +3,57 @@ require "util"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "nexus",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 45,
-            orientation = 0.25,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
-                size = 4096,
-            },
-        }
-    },
-	{
-        type = "space-location",
-        name = "oort-cloud",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 75,
-            orientation = 0.26,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
-                size = 4096,
-            },
+    type = "planet",
+    name = "nexus",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
         },
-		redrawn_connections_exclude = true,
-    },
-	{
-        type = "space-location",
-        name = "sol",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 110,
-            orientation = 0.28,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
-                size = 4096,
-            },
+        distance = 45,
+        orientation = 0.25,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
+            size = 4096,
         },
-		redrawn_connections_exclude = true,
     }
+})
+PlanetsLib:update({
+    type = "space-location",
+    name = "oort-cloud",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 75,
+        orientation = 0.26,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
+            size = 4096,
+        },
+    },
+    redrawn_connections_exclude = true,
+})
+PlanetsLib:update({
+    type = "space-location",
+    name = "sol",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 110,
+        orientation = 0.28,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
+            size = 4096,
+        },
+    },
+    redrawn_connections_exclude = true,
 })
 
 

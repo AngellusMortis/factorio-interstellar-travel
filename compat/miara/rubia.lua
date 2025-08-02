@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "rubia",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "miara",
-            },
-            distance = 20,
-            orientation = 0.5,
-            -- distance = 15,
-            -- orientation = 0.05,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_20.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "rubia",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "miara",
+        },
+        distance = 20,
+        orientation = 0.5,
+        -- distance = 15,
+        -- orientation = 0.05,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_20.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("vulcanus-rubia")

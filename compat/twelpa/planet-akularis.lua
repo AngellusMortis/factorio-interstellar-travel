@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "akularis",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "twelpa",
-            },
-            distance = 7,
-            orientation = 0.15,
-            -- distance = 14,
-            -- orientation = 0.35
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_7.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "akularis",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "twelpa",
+        },
+        distance = 7,
+        orientation = 0.15,
+        -- distance = 14,
+        -- orientation = 0.35
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_7.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("nauvis-akularis")

@@ -14,46 +14,44 @@ function moveDysonSphere(system_name)
     scale = (parent.magnitude / star.magnitude)
 
     PlanetsLib:update({
-        {
-            type = "space-location",
-            name = "slp-solar-system-sun",
-            -- magnitude = parent.magnitude * 3/5,
-            orbit = {
-                parent = {
-                    type = "space-location",
-                    name = system_name,
-                },
-                distance = 6 * scale,
-                orientation = 0.25,
-                sprite = {
-                    type = "sprite",
-                    filename = "__interstellar-travel__/graphics/orbits/orbit_6.png",
-                    size = 492,
-                    scale = 0.25 * scale,
-                },
+        type = "space-location",
+        name = "slp-solar-system-sun",
+        -- magnitude = parent.magnitude * 3/5,
+        orbit = {
+            parent = {
+                type = "space-location",
+                name = system_name,
             },
-            draw_orbit = false,
+            distance = 6 * scale,
+            orientation = 0.25,
+            sprite = {
+                type = "sprite",
+                filename = "__interstellar-travel__/graphics/orbits/orbit_6.png",
+                size = 492,
+                scale = 0.25 * scale,
+            },
         },
-        {
-            type = "space-location",
-            name = "slp-solar-system-sun2",
-            -- magnitude = parent.magnitude * 3/5,
-            orbit = {
-                parent = {
-                    type = "space-location",
-                    name = system_name,
-                },
-                distance = 4.5 * scale,
-                orientation = 0.35,
-                sprite = {
-                    type = "sprite",
-                    filename = "__interstellar-travel__/graphics/orbits/orbit_4.5.png",
-                    size = 369,
-                    scale = 0.25 * scale,
-                },
+        draw_orbit = false,
+    })
+    PlanetsLib:update({
+        type = "space-location",
+        name = "slp-solar-system-sun2",
+        -- magnitude = parent.magnitude * 3/5,
+        orbit = {
+            parent = {
+                type = "space-location",
+                name = system_name,
             },
-            draw_orbit = false,
-        }
+            distance = 4.5 * scale,
+            orientation = 0.35,
+            sprite = {
+                type = "sprite",
+                filename = "__interstellar-travel__/graphics/orbits/orbit_4.5.png",
+                size = 369,
+                scale = 0.25 * scale,
+            },
+        },
+        draw_orbit = false,
     })
 
     sun_asteroids = data.raw["space-connection"]["slp-nauvis-sun"].asteroid_spawn_definitions
@@ -146,7 +144,7 @@ function fixTech()
     if start_system ~= "star" then
         -- prevent block/cycle in Electromagnetic Science
         -- caused by Wooden Fulgora
-        utils.set_prerequisites("electromagnetic-plant", {"holmium-processing"})
+        utils.set_prerequisites("electromagnetic-plant", { "holmium-processing" })
     end
 
     if techs["star"] then
@@ -204,26 +202,25 @@ function fixSatellites()
 
     if mods["lignumis"] then
         local target_planet = settings.startup["lignumis-second-planet"].value or "nauvis"
-        target_planet = settings.startup["aps-planet"].value ~= "none" and settings.startup["aps-planet"].value or target_planet
+        target_planet = settings.startup["aps-planet"].value ~= "none" and settings.startup["aps-planet"].value or
+        target_planet
 
         PlanetsLib:update({
-            {
-                type = "planet",
-                name = "lignumis",
-                orbit = {
-                    parent = {
-                        type = "planet",
-                        name = target_planet,
-                    },
-                    distance = 2,
-                    orientation = 0.16,
-                    sprite = {
-                        type = "sprite",
-                        filename = "__lignumis-assets__/graphics/orbit-lignumis.png",
-                        size = 131
-                    },
+            type = "planet",
+            name = "lignumis",
+            orbit = {
+                parent = {
+                    type = "planet",
+                    name = target_planet,
                 },
-            }
+                distance = 2,
+                orientation = 0.16,
+                sprite = {
+                    type = "sprite",
+                    filename = "__lignumis-assets__/graphics/orbit-lignumis.png",
+                    size = 131
+                },
+            },
         })
     end
 
@@ -232,24 +229,22 @@ function fixSatellites()
         local o_parent_planet = data.raw["planet"][start_planet]
 
         PlanetsLib:update({
-            {
-                type = "planet",
-                name = "muluna",
-                orbit = {
-                    orientation = 0.75,
-                    distance = 1.6*(o_parent_planet.magnitude or 1)/(nauvis.magnitude),
-                    parent = {
-                        type = "planet",
-                        name = start_planet,
-                    },
-                    sprite = {
-                        type = "sprite",
-                        filename = "__muluna-graphics__/graphics/orbits/orbit-muluna.png",
-                        size = 412,
-                        scale = 0.25*(o_parent_planet.magnitude or 1)/(nauvis.magnitude),
-                    }
+            type = "planet",
+            name = "muluna",
+            orbit = {
+                orientation = 0.75,
+                distance = 1.6 * (o_parent_planet.magnitude or 1) / (nauvis.magnitude),
+                parent = {
+                    type = "planet",
+                    name = start_planet,
                 },
-            }
+                sprite = {
+                    type = "sprite",
+                    filename = "__muluna-graphics__/graphics/orbits/orbit-muluna.png",
+                    size = 412,
+                    scale = 0.25 * (o_parent_planet.magnitude or 1) / (nauvis.magnitude),
+                }
+            },
         })
     end
 end

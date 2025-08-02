@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "nekohaven",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "twelpa",
-            },
-            distance = 22,
-            orientation = 0.9,
-            -- distance = 22,
-            -- orientation = 0.15
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_22.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "nekohaven",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "twelpa",
+        },
+        distance = 22,
+        orientation = 0.9,
+        -- distance = 22,
+        -- orientation = 0.15
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_22.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("gleba-nekohaven")

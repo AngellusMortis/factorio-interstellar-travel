@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "igrys",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "miara",
-            },
-            distance = 12,
-            orientation = 0.25,
-            -- distance = 12,
-            -- orientation = 0.8,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_12.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "igrys",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "miara",
+        },
+        distance = 12,
+        orientation = 0.25,
+        -- distance = 12,
+        -- orientation = 0.8,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_12.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("vulcanus-to-igrys")

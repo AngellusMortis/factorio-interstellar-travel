@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "gerkizia",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "miara",
-            },
-            distance = 18,
-            orientation = 0.59,
-            -- distance = 18,
-            -- orientation = 0.34
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_18.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "gerkizia",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "miara",
+        },
+        distance = 18,
+        orientation = 0.59,
+        -- distance = 18,
+        -- orientation = 0.34
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_18.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("nauvis-gerkizia")

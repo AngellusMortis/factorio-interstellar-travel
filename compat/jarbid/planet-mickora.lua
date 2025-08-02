@@ -4,23 +4,21 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "mickora",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 20,
-            orientation = 0.1,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_20.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "mickora",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 20,
+        orientation = 0.1,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_20.png",
+            size = 4096,
+        },
+    },
 })
 
 deleteRoute("fulgora-mickora")

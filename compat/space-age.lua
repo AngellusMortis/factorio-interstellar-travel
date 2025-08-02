@@ -20,58 +20,52 @@ PlanetsLib:update({
 
 -- move Aquilo+ content to fringe system
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "aquilo",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 35,
-            orientation = 0.225,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_35.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "aquilo",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 35,
+        orientation = 0.225,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_35.png",
+            size = 4096,
+        },
+    },
 })
 
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "solar-system-edge",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 50,
-            orientation = 0.5,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_50.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "space-location",
+    name = "solar-system-edge",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 50,
+        orientation = 0.5,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_50.png",
+            size = 4096,
+        },
+    },
 })
 
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "shattered-planet",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 80,
-            orientation = 0.5
-        }
-    }
+    type = "space-location",
+    name = "shattered-planet",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 80,
+        orientation = 0.5
+    },
 })
 
 deleteRoute("gleba-aquilo")

@@ -14,108 +14,96 @@ deleteRoute("gate-senestella-fulgora")
 
 -- move redstar away from Nauvis/Miara/Twelpa/Jarbid
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "redstar",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "star",
-            },
-            distance = 150,
-            orientation = 0.35,
+    type = "space-location",
+    name = "redstar",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "star",
         },
-        redrawn_connections_exclude = true,
-    }
+        distance = 150,
+        orientation = 0.35,
+    },
+    redrawn_connections_exclude = true,
 })
 
 -- reset all of the planets locations to fix orbits
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "calidus-senestella-gate-senestella",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "redstar",
-            },
-            distance = 40,
-            orientation = 0.89,
-
+    type = "space-location",
+    name = "calidus-senestella-gate-senestella",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "redstar",
         },
-        redrawn_connections_exclude = true,
-    }
+        distance = 40,
+        orientation = 0.89,
+
+    },
+    redrawn_connections_exclude = true,
 })
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "shipyard",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "redstar",
-            },
-            distance = 31,  --164
-            orientation = 0.88, --0.133
-            sprite = {
-                type = "sprite",
-                filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_mirandus.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "shipyard",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "redstar",
+        },
+        distance = 31,  --164
+        orientation = 0.88, --0.133
+        sprite = {
+            type = "sprite",
+            filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_mirandus.png",
+            size = 4096,
+        },
+    },
 })
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "nix",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "redstar",
-            },
-            distance = 38,  --164
-            orientation = 0.8, --0.133
-            sprite = {
-                type = "sprite",
-                filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_nix.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "nix",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "redstar",
+        },
+        distance = 38,  --164
+        orientation = 0.8, --0.133
+        sprite = {
+            type = "sprite",
+            filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_nix.png",
+            size = 4096,
+        },
+    },
 })
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "mirandus-a",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "redstar",
-            },
-            distance = 25,  --164
-            orientation = 0.75, --0.133
-            sprite = {
-                type = "sprite",
-                filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_shipyard.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "space-location",
+    name = "mirandus-a",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "redstar",
+        },
+        distance = 25,  --164
+        orientation = 0.75, --0.133
+        sprite = {
+            type = "sprite",
+            filename = "__metal-and-stars-graphics-2__/graphics/starmap/orbits/orbit_shipyard.png",
+            size = 4096,
+        },
+    },
 })
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "ringworld",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "redstar",
-            },
-            distance = 11,  --164
-            orientation = 0.84, --0.133
-        }
-    }
+    type = "planet",
+    name = "ringworld",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "redstar",
+        },
+        distance = 11,  --164
+        orientation = 0.84, --0.133
+    },
 })
 
 local planet_shipyard_tech = "planet-discovery-shipyard"
@@ -125,19 +113,17 @@ if mods["dea-dia-system"] then
     techAddPrereq(planet_shipyard_tech, "system-discovery-dea-dia")
 
     PlanetsLib:update({
-        {
-            type = "space-location",
-            name = "calidus-senestella-gate-calidus",
-            orbit = {
-                parent = {
-                    type = "space-location",
-                    name = "star-dea-dia",
-                },
-                distance = 4,
-                orientation = 0.375
+        type = "space-location",
+        name = "calidus-senestella-gate-calidus",
+        orbit = {
+            parent = {
+                type = "space-location",
+                name = "star-dea-dia",
             },
-            redrawn_connections_exclude = true,
-        }
+            distance = 4,
+            orientation = 0.375
+        },
+        redrawn_connections_exclude = true,
     })
 
     data:extend({
@@ -241,18 +227,16 @@ else
 
     -- move Senestella gate to center point between Nauvis/Miara/Twelpa/Jarbid
     PlanetsLib:update({
-        {
-            type = "space-location",
-            name = "calidus-senestella-gate-calidus",
-            orbit = {
-                parent = {
-                    type = "space-location",
-                    name = "star",
-                },
-                distance = 35,
-                orientation = 0.5,
+        type = "space-location",
+        name = "calidus-senestella-gate-calidus",
+        orbit = {
+            parent = {
+                type = "space-location",
+                name = "star",
             },
-            redrawn_connections_exclude = true,
-        }
+            distance = 35,
+            orientation = 0.5,
+        },
+        redrawn_connections_exclude = true,
     })
 end

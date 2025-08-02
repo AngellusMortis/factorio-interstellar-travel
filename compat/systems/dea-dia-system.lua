@@ -13,95 +13,85 @@ deleteRoute("dea-dia-edge")
 
 -- move Dea Dia away from Nauvis/Miara/Twelpa/Jarbid
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "star-dea-dia",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "star",
-            },
-            distance = 45,
-            orientation = 0.5,
+    type = "space-location",
+    name = "star-dea-dia",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "star",
         },
-        redrawn_connections_exclude = true,
-    }
+        distance = 45,
+        orientation = 0.5,
+    },
+    redrawn_connections_exclude = true,
 })
 
 -- reset all of the planets locations to fix orbits
 PlanetsLib:update({
-    {
-        type = "space-location",
-        name = "dea-dia-system-edge",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "star-dea-dia",
-            },
-            distance = 5,
-            orientation = 0.5
+    type = "space-location",
+    name = "dea-dia-system-edge",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "star-dea-dia",
         },
-    }
+        distance = 5,
+        orientation = 0.5
+    },
 })
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "planet-dea-dia",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "star-dea-dia",
-            },
-            distance = 10,
-            orientation = 0.2,
-            sprite = {
-                type = "sprite",
-                filename = "__dea-dia-system__/graphics/orbits/orbit-dea-dia.png",
-                size = 2563,
-                scale = 0.25,
-            }
+    type = "planet",
+    name = "planet-dea-dia",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "star-dea-dia",
+        },
+        distance = 10,
+        orientation = 0.2,
+        sprite = {
+            type = "sprite",
+            filename = "__dea-dia-system__/graphics/orbits/orbit-dea-dia.png",
+            size = 2563,
+            scale = 0.25,
         }
-    }
+    },
 })
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "lemures",
-        orbit = {
-            parent = {
-                type = "planet",
-                name = "planet-dea-dia",
-            },
-            distance = 5,
-            orientation = 0.55,
-            sprite = {
-                type = "sprite",
-                filename = "__dea-dia-system__/graphics/orbits/orbit-lemures.png",
-                size = 1283,
-                scale = 0.25,
-            }
+    type = "planet",
+    name = "lemures",
+    orbit = {
+        parent = {
+            type = "planet",
+            name = "planet-dea-dia",
+        },
+        distance = 5,
+        orientation = 0.55,
+        sprite = {
+            type = "sprite",
+            filename = "__dea-dia-system__/graphics/orbits/orbit-lemures.png",
+            size = 1283,
+            scale = 0.25,
         }
-    }
+    },
 })
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "prosephina",
-        orbit = {
-            parent = {
-                type = "planet",
-                name = "planet-dea-dia",
-            },
-            distance = 6,
-            orientation = -0.2,
-            sprite = {
-                type = "sprite",
-                filename = "__dea-dia-system__/graphics/orbits/orbit-prosephina.png",
-                size = 1539,
-                scale = 0.25,
-            }
+    type = "planet",
+    name = "prosephina",
+    orbit = {
+        parent = {
+            type = "planet",
+            name = "planet-dea-dia",
+        },
+        distance = 6,
+        orientation = -0.2,
+        sprite = {
+            type = "sprite",
+            filename = "__dea-dia-system__/graphics/orbits/orbit-prosephina.png",
+            size = 1539,
+            scale = 0.25,
         }
-    }
+    },
 })
 
 local dea_dia_tech = "system-discovery-dea-dia"

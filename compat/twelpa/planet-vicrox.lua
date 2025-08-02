@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "vicrox",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "twelpa",
-            },
-            distance = 23,
-            orientation = 0.99,
-            -- distance = 23,
-            -- orientation = 0.24,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_23.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "vicrox",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "twelpa",
+        },
+        distance = 23,
+        orientation = 0.99,
+        -- distance = 23,
+        -- orientation = 0.24,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_23.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("vulcanus-vicrox")

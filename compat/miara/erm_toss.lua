@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "aiur",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "miara",
-            },
-            distance = 11,
-            orientation = 0.48,
-            -- distance = 20,
-            -- orientation = 0.45,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_11.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "aiur",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "miara",
+        },
+        distance = 11,
+        orientation = 0.48,
+        -- distance = 20,
+        -- orientation = 0.45,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_11.png",
+            size = 2048,
+        },
+    },
 })
 
 local aiur_asteroids = data.raw["space-connection"]["nauvis-aiur"].asteroid_spawn_definitions

@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "cubium",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "twelpa",
-            },
-            distance = 14,
-            orientation = 0.85,
-            -- distance = 15,
-            -- orientation = 0.1,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_14.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "cubium",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "twelpa",
+        },
+        distance = 14,
+        orientation = 0.85,
+        -- distance = 15,
+        -- orientation = 0.1,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_14.png",
+            size = 2048,
+        },
+    },
 })
 
 deleteRoute("vulcanus-cubium")

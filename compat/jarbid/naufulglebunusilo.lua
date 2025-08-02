@@ -3,23 +3,21 @@ require "util"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "naufulglebunusilo",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 40,
-            orientation = 0.7,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "naufulglebunusilo",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 40,
+        orientation = 0.7,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_40.png",
+            size = 4096,
+        },
+    },
 })
 
 

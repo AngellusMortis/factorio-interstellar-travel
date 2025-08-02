@@ -9,7 +9,7 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.20",
-    "PlanetsLib >= 1.1.20",
+    "PlanetsLib >= 1.9.0",
     "space-age",
     "? any-planet-start",
     "? Redrawn-Space-Connections",

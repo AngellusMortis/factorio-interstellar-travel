@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "tenebris",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 45,
-            orientation = 0.55,
-            -- distance = 35,
-            -- orientation = 0.450,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_45.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "tenebris",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 45,
+        orientation = 0.55,
+        -- distance = 35,
+        -- orientation = 0.450,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_45.png",
+            size = 4096,
+        },
+    },
 })
 
 deleteRoute("fulgora-tenebris")

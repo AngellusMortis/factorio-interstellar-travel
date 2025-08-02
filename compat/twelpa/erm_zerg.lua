@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "char",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "twelpa",
-            },
-            distance = 12,
-            orientation = 0.65,
-            -- distance = 12.5,
-            -- orientation = 0.9,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_12.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "char",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "twelpa",
+        },
+        distance = 12,
+        orientation = 0.65,
+        -- distance = 12.5,
+        -- orientation = 0.9,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_12.png",
+            size = 2048,
+        },
+    },
 })
 
 local char_asteroid = data.raw["space-connection"]["vulcanus-char"].asteroid_spawn_definitions

@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "arrakis",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 19,
-            orientation = 0.7,
-            -- distance = 12,
-            -- orientation = 0.7,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_19.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "arrakis",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 19,
+        orientation = 0.7,
+        -- distance = 12,
+        -- orientation = 0.7,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_19.png",
+            size = 4096,
+        },
+    },
 })
 
 deleteRoute("nauvis-arrakis")

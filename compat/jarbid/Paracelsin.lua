@@ -3,25 +3,23 @@ require "util"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "paracelsin",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "jarbid",
-            },
-            distance = 37,
-            orientation = 0.4,
-            -- distance = 40,
-            -- orientation = 0.45,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_37.png",
-                size = 4096,
-            },
-        }
-    }
+    type = "planet",
+    name = "paracelsin",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 37,
+        orientation = 0.4,
+        -- distance = 40,
+        -- orientation = 0.45,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_37.png",
+            size = 4096,
+        },
+    },
 })
 
 deleteRoute("fulgora-paracelsin")

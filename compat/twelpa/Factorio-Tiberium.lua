@@ -4,25 +4,23 @@ require "const"
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
 PlanetsLib:update({
-    {
-        type = "planet",
-        name = "tiber",
-        orbit = {
-            parent = {
-                type = "space-location",
-                name = "twelpa",
-            },
-            distance = 15,
-            orientation = 0.125,
-            --    distance = 15,
-            --    orientation = 0.375,
-            sprite = {
-                type = "sprite",
-                filename = "__interstellar-travel__/graphics/orbits/orbit_15.png",
-                size = 2048,
-            },
-        }
-    }
+    type = "planet",
+    name = "tiber",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "twelpa",
+        },
+        distance = 15,
+        orientation = 0.125,
+        --    distance = 15,
+        --    orientation = 0.375,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_15.png",
+            size = 2048,
+        },
+    },
 })
 
 local tiber_asteroid = data.raw["space-connection"]["tiber-fulgora"].asteroid_spawn_definitions
