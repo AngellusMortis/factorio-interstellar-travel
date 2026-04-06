@@ -8,7 +8,7 @@ Adds up to 3 new star systems to help organize planet mods and add an extra laye
 
 _Note:_ All screenshots taked with the [StarMap Background](https://mods.factorio.com/mod/Better_Starmap_Background) mod.
 
-_About Support and Updates:_ I made this mod because I thought it was a cool idea and I wanted to try out Factorio modding. I never really intented to support it. The mod is open source and I am on GitHub daliy for other projects. If you like this mod and want to keep using it / add support for planets, I recommend contibutring on the [GitHub repo](https://github.com/AngellusMortis/factorio-interstellar-travel). I will review and merge any PRs you make and they will automatically be push to the Factorio mod portal.
+_About Support and Updates:_ I made this mod because I thought it was a cool idea and I wanted to try out Factorio modding. I never really intended to support it. The mod is open source and I am on GitHub daily for other projects. If you like this mod and want to keep using it / add support for planets, I recommend contributing on the [GitHub repo](https://github.com/AngellusMortis/factorio-interstellar-travel). I will review and merge any PRs you make, and they will automatically be push to the Factorio mod portal.
 
 ## Features
 
