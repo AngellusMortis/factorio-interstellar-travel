@@ -1,5 +1,6 @@
 require "util"
 
+if data.raw["space-location"]["secretas" then
 PlanetsLib:update({
     type = "space-location",
     name = "secretas",
@@ -17,6 +18,25 @@ PlanetsLib:update({
         },
     },
 })
+else
+PlanetsLib:update({
+    type = "planet",
+    name = "secretas",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 45,
+        orientation = 0.43,
+        sprite = {
+            type = "sprite",
+            filename = "__interstellar-travel__/graphics/orbits/orbit_45.png",
+            size = 4096,
+        },
+    },
+})
+end  
 PlanetsLib:update({
     type = "planet",
     name = "frozeta",
