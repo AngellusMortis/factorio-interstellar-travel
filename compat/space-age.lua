@@ -55,6 +55,7 @@ PlanetsLib:update({
     },
 })
 
+if data.raw["space-location"]["shattered-planet"] then
 PlanetsLib:update({
     type = "space-location",
     name = "shattered-planet",
@@ -67,6 +68,20 @@ PlanetsLib:update({
         orientation = 0.5
     },
 })
+else
+PlanetsLib:update({
+    type = "planet",
+    name = "shattered-planet",
+    orbit = {
+        parent = {
+            type = "space-location",
+            name = "jarbid",
+        },
+        distance = 80,
+        orientation = 0.5
+    },
+})
+end
 
 deleteRoute("gleba-aquilo")
 deleteRoute("fulgora-aquilo")
