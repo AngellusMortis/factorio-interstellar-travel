@@ -13,13 +13,13 @@ end
 
 -- fix heat inserter being given the wrong prerequisite type (string instead of table of strings)
 if mods["planet-tapatrion"] then
-    data.raw["technology"]["heat-inserter"].prerequisites = {"heating-tower"}
+    data.raw["technology"]["heat-inserter"].prerequisites = { "heating-tower" }
 end
 
 -- fix incompatibility with Alien Biomes
 if mods["alien-biomes"] then
     if mods["planet-akularis"] then
-        data.raw["planet"]["akularis"].map_gen_settings.autoplace_settings["entity"] =  {
+        data.raw["planet"]["akularis"].map_gen_settings.autoplace_settings["entity"] = {
             settings = {
                 ["iron-ore"] = {},
                 ["copper-ore"] = {},

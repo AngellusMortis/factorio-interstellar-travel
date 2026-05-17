@@ -271,7 +271,7 @@ function addTech(miara, twelpa)
     tech = {}
     fringe_prerequisites = { "rocket-turret", "advanced-asteroid-processing", "asteroid-reprocessing",
         "electromagnetic-science-pack" }
-        fringe_unlocks = {
+    fringe_unlocks = {
         {
             type = "unlock-space-location",
             space_location = "sye-nauvis",
@@ -342,9 +342,10 @@ function addTech(miara, twelpa)
             }
         }
     elseif mods["dea-dia-system"] then
-        fringe_prerequisites = { "system-discovery-dea-dia", "rocket-turret", "advanced-asteroid-processing", "asteroid-reprocessing",
+        fringe_prerequisites = { "system-discovery-dea-dia", "rocket-turret", "advanced-asteroid-processing",
+            "asteroid-reprocessing",
             "electromagnetic-science-pack" }
-            fringe_unlocks = {
+        fringe_unlocks = {
             {
                 type = "unlock-space-location",
                 space_location = "sye-jarbid",
@@ -352,9 +353,10 @@ function addTech(miara, twelpa)
             }
         }
     elseif mods["metal-and-stars"] then
-        fringe_prerequisites = { "planet-discovery-shipyard", "rocket-turret", "advanced-asteroid-processing", "asteroid-reprocessing",
+        fringe_prerequisites = { "planet-discovery-shipyard", "rocket-turret", "advanced-asteroid-processing",
+            "asteroid-reprocessing",
             "electromagnetic-science-pack" }
-            fringe_unlocks = {
+        fringe_unlocks = {
             {
                 type = "unlock-space-location",
                 space_location = "sye-jarbid",
