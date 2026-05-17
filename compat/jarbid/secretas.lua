@@ -1,6 +1,6 @@
 require "util"
 
-if data.raw["space-location"]["secretas" then
+if data.raw["space-location"]["secretas"] then
 PlanetsLib:update({
     type = "space-location",
     name = "secretas",
