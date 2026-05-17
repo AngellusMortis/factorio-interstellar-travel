@@ -20,13 +20,13 @@ end
 
 -- manual map for locations to parent systems for ones that are missing from data
 local systems = {
-    star = {"sye-nauvis"},
-    miara = {"sye-miara"},
-    jarbid = {"sye-jarbid", "black-hole-approach", "black-hole", "secretas", "solar-system-edge", "shattered-planet"},
-    twelpa = {"sye-twelpa"},
-    redstar = {"calidus-senestella-gate-senestella", "mirandus-a", "nix", "shipyard"},
+    star = { "sye-nauvis" },
+    miara = { "sye-miara" },
+    jarbid = { "sye-jarbid", "black-hole-approach", "black-hole", "secretas", "solar-system-edge", "shattered-planet" },
+    twelpa = { "sye-twelpa" },
+    redstar = { "calidus-senestella-gate-senestella", "mirandus-a", "nix", "shipyard" },
 }
-systems["star-dea-dia"] = {"calidus-senestella-gate-calidus", "dea-dia-system-edge"}
+systems["star-dea-dia"] = { "calidus-senestella-gate-calidus", "dea-dia-system-edge" }
 
 system_map = {}
 for system, locations in pairs(systems) do

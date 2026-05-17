@@ -94,3 +94,15 @@ Jarbid is now the home of Aquilo, the Solar System Edge and the Shattered Planet
 - Oralt black hole from [Void Processing](https://mods.factorio.com/mod/VoidProcessing)
 
 ![Jarbid System](https://i.imgur.com/583i0bo.png)
+
+## Development
+
+The git repo is configured to work well with [VS Code](https://code.visualstudio.com/) out of the box. It will recommend to install some extentions that will add Lua specific features to VS Code to help with development.
+
+If you want to install these extensions manually, they are listed below.
+
+* [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) - A language server for Lua
+* [Factorio Modding Tool Kit](https://marketplace.visualstudio.com/items?itemName=justarandomgeek.factoriomod-debug) - extention to help with making Factorio mods in VS Code. Injects some types from Factorio into language server
+* [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improves highlighting of errors and warnings from the language server
+
+If you make a PR to submit a patch, using these extensions will help a lot for ensuring consistent formatting and you may get asked to re-format your code if you do not use them

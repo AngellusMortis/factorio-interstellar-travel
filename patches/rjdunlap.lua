@@ -2,6 +2,7 @@
 decorative = data.raw["optimized-decorative"]
 
 if decorative["cream-nerve-roots-veins-dense"] and not decorative["nerve-roots-veins-dense"] then
+    ---@diagnostic disable-next-line: undefined-field
     decorative["nerve-roots-veins-dense"] = table.deepcopy(decorative["cream-nerve-roots-veins-dense"])
     decorative["nerve-roots-veins-dense"].name = "nerve-roots-veins-dense"
 end

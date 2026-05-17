@@ -203,7 +203,7 @@ function fixSatellites()
     if mods["lignumis"] then
         local target_planet = settings.startup["lignumis-second-planet"].value or "nauvis"
         target_planet = settings.startup["aps-planet"].value ~= "none" and settings.startup["aps-planet"].value or
-        target_planet
+            target_planet
 
         PlanetsLib:update({
             type = "planet",

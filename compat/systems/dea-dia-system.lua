@@ -102,7 +102,7 @@ if not miara and not twelpa then
         space_location = "sye-nauvis",
         use_icon_overlay_constant = false
     })
--- otherwise, lock shipyard behind core system travel
+    -- otherwise, lock shipyard behind core system travel
 else
     techAddPrereq(dea_dia_tech, TECH_CORE)
 end

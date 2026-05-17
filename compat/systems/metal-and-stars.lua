@@ -50,7 +50,7 @@ PlanetsLib:update({
             type = "space-location",
             name = "redstar",
         },
-        distance = 31,  --164
+        distance = 31,      --164
         orientation = 0.88, --0.133
         sprite = {
             type = "sprite",
@@ -67,7 +67,7 @@ PlanetsLib:update({
             type = "space-location",
             name = "redstar",
         },
-        distance = 38,  --164
+        distance = 38,     --164
         orientation = 0.8, --0.133
         sprite = {
             type = "sprite",
@@ -84,7 +84,7 @@ PlanetsLib:update({
             type = "space-location",
             name = "redstar",
         },
-        distance = 25,  --164
+        distance = 25,      --164
         orientation = 0.75, --0.133
         sprite = {
             type = "sprite",
@@ -101,7 +101,7 @@ PlanetsLib:update({
             type = "space-location",
             name = "redstar",
         },
-        distance = 11,  --164
+        distance = 11,      --164
         orientation = 0.84, --0.133
     },
 })
@@ -143,8 +143,8 @@ if mods["dea-dia-system"] then
         }
     })
 
--- else,
--- put Senestella Stargate in the middle of Nauvis, Miara and Twelpa
+    -- else,
+    -- put Senestella Stargate in the middle of Nauvis, Miara and Twelpa
 else
     -- unlock Nauvis system edge with unlocking shipyard if Miara and Twelpa do not exist
     if not miara and not twelpa then
@@ -153,7 +153,7 @@ else
             space_location = "sye-nauvis",
             use_icon_overlay_constant = false
         })
-    -- otherwise, lock shipyard behind core system travel
+        -- otherwise, lock shipyard behind core system travel
     else
         techAddPrereq(planet_shipyard_tech, TECH_CORE)
     end
