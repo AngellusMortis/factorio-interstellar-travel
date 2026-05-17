@@ -1,7 +1,7 @@
 require "util"
 
 PlanetsLib:update({
-    type = "space-location",
+    type = data.raw["space-location"]["secretas"] and "space-location" or "planet",
     name = "secretas",
     orbit = {
         parent = {
@@ -17,6 +17,7 @@ PlanetsLib:update({
         },
     },
 })
+
 PlanetsLib:update({
     type = "planet",
     name = "frozeta",

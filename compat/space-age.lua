@@ -56,7 +56,7 @@ PlanetsLib:update({
 })
 
 PlanetsLib:update({
-    type = "space-location",
+    type = data.raw["space-location"]["shattered-planet"] and "space-location" or "planet",
     name = "shattered-planet",
     orbit = {
         parent = {
